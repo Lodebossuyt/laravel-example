@@ -2,9 +2,9 @@
 
 namespace Lodeb\Example;
 
+use Lodeb\Example\Commands\ExampleCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Lodeb\Example\Commands\ExampleCommand;
 
 class ExampleServiceProvider extends PackageServiceProvider
 {
